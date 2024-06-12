@@ -1,0 +1,180 @@
+ 2321  ls --help
+ 2322  clear
+ 2323  ls
+ 2324  find . -mmin -60
+ 2325  find . -mmin 60
+ 2326  find . -mmin -60
+ 2327  find . -mmin +60
+ 2328  find . -mmin +480
+ 2329  cd ..
+ 2330  find . -mmin -480
+ 2331  find . -mmin -980
+ 2332  find . -mtime -1
+ 2333  find . -mtime -2
+ 2334  cd -
+ 2335  find . -name file
+ 2336  find . -name file -exec ls -l {} \;
+ 2337  find . -name file
+ 2338  ls ./dir2/file
+ 2339  ls -l ./dir2/file
+ 2340  find . -name file|xargs ls -l
+ 2341  ls
+ 2342  ls|wc -l
+ 2343  find . -name file
+ 2344  find . -name file|xargs rm -rf
+ 2345  find . -name file
+ 2346  ls
+ 2347  ls dir1
+ 2348  ls dir2
+ 2349  ls
+ 2350  find . -name "file*"
+ 2351  mkdir dir4
+ 2352  ls
+ 2353  find . -name "file*" -exec cp {} dir4 \;
+ 2354  ls
+ 2355  ls dir4
+ 2356  rm file3
+ 2357  ls
+ 2358  df -h
+ 2359  cd /home
+ 2360  ls
+ 2361  du -h --max-depth=0 .
+ 2362  du -h --max-depth=1 .
+ 2363  cd luke
+ 2364  ls -l
+ 2365  cd -
+ 2366  cd luke/day3
+ 2367  ls
+ 2368  cat file4
+ 2369  vim file4 
+ 2370  cat -b file4
+ 2371  cat -E file4
+ 2372  cat -n file4
+ 2373  cat -s file4
+ 2374  cat -s file4 >file6
+ 2375  cat file6
+ 2376  echo hello
+ 2377  echo hello >file7
+ 2378  echo
+ 2379  echo >file8
+ 2380  ll
+ 2381  echo -n >file8
+ 2382  ll
+ 2383  cat >file9
+ 2384  ll
+ 2385  cat file4
+ 2386  head -n 3 file4
+ 2387  head -3 file4
+ 2388  tail -5 file4
+ 2389  history 
+ 2390  history |tail -10
+ 2391  ls
+ 2392  more day3_history.txt 
+ 2393  less day3_history.txt 
+ 2394  ls
+ 2395  ll
+ 2396  sort file4
+ 2397  sort file4 >file10
+ 2398  cat file10
+ 2399  ll
+ 2400  which ls
+ 2401  ls -l /bin/ls
+ 2402  file /bin/ls
+ 2403  ls
+ 2404  vim file4
+ 2405  cat file4
+ 2406  uniq file4
+ 2407  sort file4
+ 2408  sort file4|uniq
+ 2409  sort file4|uniq -c
+ 2410* sort file4|uniq -i
+ 2411  sort file4|uniq -u
+ 2412  ls
+ 2413  ls|wc -l
+ 2414  wc day3_history.txt 
+ 2415  ll
+ 2416  cat -n day3_history.txt 
+ 2417  wc day3_history.txt 
+ 2418  wc -c day3_history.txt 
+ 2419  wc -l day3_history.txt 
+ 2420  wc -w day3_history.txt 
+ 2421  ls
+ 2422  ls|wc -l
+ 2423  ls
+ 2424  ls >file9
+ 2425  cat file9
+ 2426  grep world file4
+ 2427  grep how file4
+ 2428  vim main.py
+ 2429  python main.py 
+ 2430  grep print main.py
+ 2431  grep pri main.py
+ 2432  ls
+ 2433  cp main.py dir4
+ 2434  ls
+ 2435  find . -name "*.py"
+ 2436  find . -name "*.py"|xargs grep print
+ 2437  ls
+ 2438  ll
+ 2439  umask 
+ 2440  umask 000
+ 2441  umask 
+ 2442  touch file10
+ 2443  ll
+ 2444  touch file11
+ 2445  ll
+ 2446  mkdir dir1
+ 2447  mkdir dir6
+ 2448  ll
+ 2449  python main.py 
+ 2450  ./main.py
+ 2451  chmod +x main.py 
+ 2452  ll
+ 2453  ./main.py 
+ 2454  ls
+ 2455  tar cvf day3.tar *
+ 2456  ls
+ 2457  ll
+ 2458  find . -name day3.tar
+ 2459  find . ! -name day3.tar
+ 2460  find . ! -name day3.tar|xargs rm -rf
+ 2461  ls
+ 2462  ls -a
+ 2463  ls
+ 2464  tar xf day3.tar 
+ 2465  ls
+ 2466  rm day3.tar 
+ 2467  ls
+ 2468  tar cvfz day3.tar.gz *
+ 2469  ls
+ 2470  ll
+ 2471  find . ! -name day3.tar.gz|xargs rm -rf
+ 2472  ls
+ 2473  tar xf day3.tar.gz 
+ 2474  ls
+ 2475  gzip day3_history.txt 
+ 2476  ll
+ 2477  gzip -dv day3_history.txt.gz 
+ 2478  ll
+ 2479  bzip2 -v day3_history.txt 
+ 2480  ll
+ 2481  bzip2 -d day3_history.txt.bz2 
+ 2482  ll
+ 2483  scp day3_history.txt python5@42.192.117.114:~/day3
+ 2484  ls ~/.ssh/
+ 2485  ssh-copy-id python5@42.192.117.114
+ 2486  scp day3_history.txt python5@42.192.117.114:~/day3
+ 2487  ls ~/.ssh/
+ 2488  which qscp
+ 2489  cat /home/luke/.local/bin/qscp
+ 2490  cp /home/luke/.local/bin/qscp .
+ 2491  vim qscp 
+ 2492  ./qscp day3_history.txt 3
+ 2493  ./qscp day3_history.txt 2
+ 2494  ls
+ 2495  cat qscp
+ 2496  ls
+ 2497  cd ..
+ 2498  tar cvfz day3.tar.gz day3
+ 2499  history 
+ 2500  history |tail -180 >day3_history2.txt

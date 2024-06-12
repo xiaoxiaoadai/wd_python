@@ -1,0 +1,15 @@
+ 2001  su
+ 2002  su root
+ 2003  cat /etc/sudoers
+ 2004  sudo cat /etc/sudoers
+ 2005  clear
+ 2006  sudo passwd root
+ 2007  useradd lele
+ 2008  cat /etc/passwd
+ 2009  useradd xiongda
+ 2010  sudo useradd -m xiongda -s /bin/bash
+ 2011  cat /etc/passwd
+ 2012  pwd
+ 2013  ls ..
+ 2014  history 
+ 2015  sudo passwd xiongda

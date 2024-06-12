@@ -1,0 +1,17 @@
+/*.dll
+/*.exe
+/*.iso
+/*.sha256
+/LICENSE.rtf
+/CHANGELOG.md
+/OSS-LICENSES
+/linux-daemon-options.json
+/windows-daemon-options.json
+/lcow-initrd.img
+/lcow-kernel
+/componentsVersion.json
+/config-options.json
+/ApplicationDesigner
+/wsl
+/docker.tar
+/services.tar

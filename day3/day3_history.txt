@@ -1,0 +1,318 @@
+ 2002  service networking restart
+ 2003  service sshd restart
+ 2004  sudo service sshd restart
+ 2005  clear
+ 2006  ls -l
+ 2007  cd ..
+ 2008  touch file
+ 2009  echo hello >file
+ 2010  ls
+ 2011  ls -l
+ 2012  ls -l /
+ 2013  ls
+ 2014  echo hello >file
+ 2015  cd luke
+ 2016  mkdir day3
+ 2017  cd day3
+ 2018  ls
+ 2019  ls -a
+ 2020  cd .
+ 2021  cd ..
+ 2022  cd day3
+ 2023  ls -a
+ 2024  touch .file
+ 2025  ls
+ 2026  ls -a
+ 2027  rm .file 
+ 2028  cd ..
+ 2029  ls -a
+ 2030  ls -a ../xiongda/
+ 2031  ls --color=never
+ 2032  ls -l
+ 2033  ls -lh
+ 2034  cd /
+ 2035  pwd
+ 2036  ls
+ 2037  cd home
+ 2038  cd /bin
+ 2039  ls
+ 2040  cd ~
+ 2041  pwd
+ 2042  cd ../xiongda/
+ 2043  touch file
+ 2044  cd ~
+ 2045  cd -
+ 2046  ping 14.215.177.39
+ 2047  pwd
+ 2048  cd ~
+ 2049  pwd
+ 2050  echo $PS1
+ 2051  vim .bashrc 
+ 2052  cd day3
+ 2053  ls
+ 2054  touch test
+ 2055  ls -l
+ 2056  cd test
+ 2057  mkdir dir1
+ 2058  ll
+ 2059  ls -lh
+ 2060  alias 
+ 2061  ll
+ 2062  rmdir dir1
+ 2063  ls
+ 2064  mkdir dir2
+ 2065  ls
+ 2066  mkdir dir2/dir1
+ 2067  ls
+ 2068  touch dir2/file
+ 2069  ls
+ 2070  ls dir2/
+ 2071  rmdir dir2
+ 2072  ls
+ 2073  cp test dir2
+ 2074  ls dir2/
+ 2075  cp test dir2/dir1/
+ 2076  ls dir2/dir1/
+ 2077  ls
+ 2078  cp dir2 dir3
+ 2079  ls
+ 2080  cp -r dir2 dir3
+ 2081  ls
+ 2082  ls dir3
+ 2083  cp /home/xiongda/examples.desktop .
+ 2084  ls
+ 2085  ll
+ 2086  ls dir2
+ 2087  echo hello >test
+ 2088  cat test 
+ 2089  ls
+ 2090  ll
+ 2091  echo -n hello >test
+ 2092  cat test 
+ 2093  ll
+ 2094  echo hello >test
+ 2095  ll
+ 2096  ll dir2
+ 2097  cp test dir2
+ 2098  ll dir2
+ 2099  cp -i test dir2
+ 2100  cp -f test dir2
+ 2101  ls
+ 2102  ls dir2
+ 2103  mkdir dir4
+ 2104  ls
+ 2105  ls dir4
+ 2106  mv test dir4/
+ 2107  ls
+ 2108  ls dir4
+ 2109  ls
+ 2110  mv examples.desktop dir4
+ 2111  ls
+ 2112  ls dir4
+ 2113  mv di4 dir5
+ 2114  mv dir4 dir5
+ 2115  ls
+ 2116  touch file
+ 2117  ls
+ 2118  mv file file1
+ 2119  ls
+ 2120  mv file1 dir2/dir1/
+ 2121  ls
+ 2122  ls dir5
+ 2123  ls di3
+ 2124  ls dir3/
+ 2125  mv dir5/test dir3/
+ 2126  touch test
+ 2127  ls
+ 2128  mv -i test dir3
+ 2129  ls
+ 2130  mv -i test dir3
+ 2131  ls
+ 2132  mv dir3 dir5
+ 2133  ls
+ 2134  ls dir5
+ 2135  ls
+ 2136  touch file
+ 2137  ls
+ 2138  rm file 
+ 2139  ls
+ 2140  ls dir5
+ 2141  ls
+ 2142  rm dir5
+ 2143  rm -r dir5
+ 2144  ls
+ 2145  rm -rf dir2/
+ 2146  ls
+ 2147  cd /home
+ 2148  ls
+ 2149  cat /etc/passwd
+ 2150  ls
+ 2151  rm -rf xiongda
+ 2152  rm -r xiongda
+ 2153  ls -l /
+ 2154  ls
+ 2155  sudo rm -r xiongda
+ 2156  ls
+ 2157  cd luke/
+ 2158  ls
+ 2159  tree
+ 2160  cd dir3
+ 2161  cd day3
+ 2162  ls
+ 2163  mkdir dir1
+ 2164  touch dir1/file
+ 2165  tree
+ 2166  tree -a
+ 2167  man tree
+ 2168  ls
+ 2169  touch dir1/.file2
+ 2170  ls
+ 2171  tree
+ 2172  tree -a
+ 2173  tree -d
+ 2174  cd ..
+ 2175  tree -d
+ 2176  cd -
+ 2177  tree -h
+ 2178  tree
+ 2179  ls
+ 2180  touch dir2
+ 2181  ls
+ 2182  rm dir2
+ 2183  touch file
+ 2184  ll
+ 2185  chmod o+w file 
+ 2186  ll
+ 2187  cat file 
+ 2188  ll ..
+ 2189  ls
+ 2190  chmod o+w ../day3
+ 2191  ll ..
+ 2192  ls
+ 2193  echo hello >file
+ 2194  rm file
+ 2195  ls
+ 2196  rm file
+ 2197  ls
+ 2198  rm -f file 
+ 2199  ls
+ 2200  clear
+ 2201  ll
+ 2202  chmod 000 dir1
+ 2203  ll
+ 2204  chmod 777 dir1
+ 2205  ll
+ 2206  chmod 666 dir1
+ 2207  ll
+ 2208  cd dir1
+ 2209  chmod 770 dir1
+ 2210  ll
+ 2211  cd dir1
+ 2212  cd ..
+ 2213  which python
+ 2214  find /usr -name python
+ 2215  find / -name python
+ 2216  ls
+ 2217  ls dir1/
+ 2218  mkdir dir2
+ 2219  mkdir dir2/file
+ 2220  ls
+ 2221  find . -name file
+ 2222  find . -name file -a -type d
+ 2223  find . -name file -a -type f
+ 2224  ls
+ 2225  touch dir2/file1
+ 2226  find . -name file -o find . -name file1
+ 2227  find . -name file -o -name file1
+ 2228  ls
+ 2229  find . -name file
+ 2230  find . ! -name file
+ 2231  ls
+ 2232  touch file
+ 2233  ls dir*
+ 2234  ls dir1
+ 2235  ls dir2
+ 2236  find . -name file*
+ 2237  find . -name "file*"
+ 2238  touch dir1/file2
+ 2239  find . -name "file*"
+ 2240  touch dir1/file22
+ 2241  find . -name "file*"
+ 2242  find ~ -name "*.py"
+ 2243  history 
+ 2244  find . -name "file*"
+ 2245  find . -name "file?"
+ 2246  find . -name "file*xx"
+ 2247  touch ./dir2/file3
+ 2248  touch ./dir2/file4
+ 2249  touch ./dir2/file5
+ 2250  find . -name "file[1-3]"
+ 2251  ls
+ 2252  sudo touch file2
+ 2253  ll
+ 2254  echo hello >file2
+ 2255  find . -uid 0
+ 2256  cat /etc/passwd
+ 2257  cat /etc/group
+ 2258  find . -user root
+ 2259  find . -user luke
+ 2260  find . -empty
+ 2261  ls
+ 2262  mkdir dir3
+ 2263  find . -empty
+ 2264  ll
+ 2265  touch dir3/file1
+ 2266  find . -empty
+ 2267  ls
+ 2268  find . -perm 777
+ 2269  ll ..
+ 2270  ls
+ 2271  chmod 775 .
+ 2272  find . -perm 777
+ 2273  ls
+ 2274  chmod 777 file]
+ 2275  chmod 777 file
+ 2276  find . -perm 777
+ 2277  ll
+ 2278  man find
+ 2279  find ~ -size +1G
+ 2280  ls
+ 2281  find . -size 1
+ 2282  echo hello >file
+ 2283  ll
+ 2284  find . -size 1
+ 2285  man find
+ 2286  ll /dev
+ 2287  ls
+ 2288  ll
+ 2289  echo world >file2
+ 2290  rm file2
+ 2291  ls
+ 2292  echo world >file2
+ 2293  ls
+ 2294  ll
+ 2295  ln -s file2 file3
+ 2296  ll
+ 2297  cat file3
+ 2298  cat file2
+ 2299  cat file3
+ 2300  rm file2
+ 2301  ll
+ 2302  echo world >file2
+ 2303  ll
+ 2304  ln file2 file4
+ 2305  ll
+ 2306  cat file4
+ 2307  ls -il
+ 2308  cp file2 file5
+ 2309  ls -il
+ 2310  rm file2
+ 2311  ll
+ 2312  cat file4
+ 2313  ls -il
+ 2314  ls -ila
+ 2315  ls dir1 -il
+ 2316  ls dir1 -ila
+ 2317  clear
+ 2318  history 
+ 2319  history |tail -318 >day3_history.txt

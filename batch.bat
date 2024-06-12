@@ -1,0 +1,1 @@
+for /d %D in (*) do @echo %~fD & @dir /s %~fD | find "总文件夹大小"

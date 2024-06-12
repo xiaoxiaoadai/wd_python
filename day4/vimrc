@@ -1,0 +1,4 @@
+set nu
+set cursorline
+set hlsearch
+set tabstop=4

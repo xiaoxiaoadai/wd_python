@@ -1,0 +1,118 @@
+ 2004  rm .vimrc
+ 2005  vim
+ 2006  cat vimrc 
+ 2007  pwd
+ 2008  cp vimrc .vimrc
+ 2009  vim .vimrc
+ 2010  cd day4/
+ 2011  ls
+ 2012  vim file3 
+ 2013  clear
+ 2014  vim
+ 2015  ls
+ 2016  vim file1
+ 2017  vim file2
+ 2018  ls
+ 2019  vim file1
+ 2020  find ~ -name "The*txt"
+ 2021  cp /home/luke/python4/day4/The_Holy_Bible.txt .
+ 2022  ls
+ 2023  vim The_Holy_Bible.txt 
+ 2024  vim ~/.bashrc 
+ 2025  vim The_Holy_Bible.txt 
+ 2026  ls
+ 2027  vim file2
+ 2028  ls
+ 2029  vim file2
+ 2030  vim +20 The_Holy_Bible.txt 
+ 2031  vim The_Holy_Bible.txt 
+ 2032  ls
+ 2033  cat file2
+ 2034  cat file3
+ 2035  cat file1
+ 2036  cp file1 file4
+ 2037  grep today *
+ 2038  sed 's/today/yesterday/g' file1
+ 2039  cat file1
+ 2040  sed -i 's/today/yesterday/g' *
+ 2041  grep today *
+ 2042  grep yesterday *
+ 2043  find ~ -name The_Holy_Bible.txt
+ 2044  vim /home/luke/python4/day4/The_Holy_Bible.txt
+ 2045  ls
+ 2046  mkdir dir1
+ 2047  mv file4 dir1
+ 2048  ls
+ 2049  cat file1
+ 2050  man sed
+ 2051  find . -type f
+ 2052  find . -type f|grep thank
+ 2053  find . -type f
+ 2054  find . -type f|xargs grep thank
+ 2055  ls
+ 2056  mv The_Holy_Bible.txt ..
+ 2057  find . -type f|xargs grep thank
+ 2058  find . -type f|xargs sed -i 's/thank/thanks/g'
+ 2059  find . -type f|xargs grep thank
+ 2060  ls
+ 2061  cp file2 file5
+ 2062  vim file5
+ 2063  vimdiff file2 file5
+ 2064  cp file1 file5
+ 2065  vim file5
+ 2066  vimdiff file1 file5
+ 2067  cd ~
+ 2068  vim .bashrc 
+ 2069  . .bashrc 
+ 2070  vim .bashrc 
+ 2071  . .bashrc
+ 2072  ls
+ 2073  vim .bashrc 
+ 2074  env
+ 2075  alias 
+ 2076  ll
+ 2077  alias 
+ 2078  vim .bashrc 
+ 2079  echo $PATH
+ 2080  env
+ 2081  cd day4
+ 2082  ls
+ 2083  which qscp
+ 2084  mv /home/luke/.local/bin/qscp .
+ 2085  ls
+ 2086  which qscp
+ 2087  qscp
+ 2088  ls
+ 2089  which ls
+ 2090  sudo mv /bin/ls .
+ 2091  ls
+ 2092  ./ls
+ 2093  sudo mv ls /bin
+ 2094  ls
+ 2095  cd /home/luke/.local/
+ 2096  ls
+ 2097  cd bin
+ 2098  ls
+ 2099  cd -
+ 2100  ls
+ 2101  cd ~/day4/
+ 2102  ls
+ 2103  cp qscp ~/.local/bin
+ 2104  qscp
+ 2105  cat qscp
+ 2106  qscp file1 3
+ 2107  vim ~/.bashrc 
+ 2108  history 
+ 2109  ls
+ 2110  mv ~/The_Holy_Bible.txt .
+ 2111  ls
+ 2112  cd ~
+ 2113  tar cvzf day4.tar.gz day4
+ 2114  vim .bashrc 
+ 2115  vim /etc/profile
+ 2116  ipython3 
+ 2117  vim .viminfo 
+ 2118  history 
+ 2119  cd day4
+ 2120  ls
+ 2121  history |tail -118 >day4_history.txt
